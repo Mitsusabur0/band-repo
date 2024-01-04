@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+    .header {
+        display: flex;
+        margin: 20px 310px 0 300px;
+        align-items: center;
+    }
+
+        #logo {
+            width: 140px;
+            flex: 1;
+            margin-right: auto;
+            }
+
+        #img-logo {
+            width: 250px;
+        }
+
+        .sns {
+            width: 40px;
+            align-self: center;
+            margin-right: -8px;
+        }
+
+        .header ul {
+            display: flex;
+            font-size: 18px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .header li {
+            align-self: center;
+            color: grey;
+        }
+
+        a {
+            text-decoration: none;
+            align-self: center;  
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    .head-content {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 300px 0px 300px;
+    }
+
+        .hero-text {
+            color: white;
+            width: 600px;
+            font-size: 74px;
+            font-weight: bold;
+            margin-top: 50px;
+            font-style: italic;
+            /* font-family: 'Playfair Display', serif; */
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .hero-img {
+            width:670px;
+            margin-left: 20px;
+            margin-bottom: 120px;
+            margin-top: -40px;
+            border: 5px solid black;
+            /* border-radius: 10px; */
+        }
+
+        .hero-subtext {
+            color: whitesmoke;
+            font-size: 24px;
+            width: 500px;
+        }
+
+        .head-content li {
+            margin: 5px 0 5px 10px;
+        }
+
+        .small-text {
+            font-size: 24px;
+            color: lightslategray;
+        }
+
+        .button {
+            background-color: black;
+            color: #F0F8FF;
+            border: none;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 20px;
+            padding: 8px;
+            font-size: 24px;
+            border-radius: 10px;
+        }
+
+.members-section {
+    background-color: black;
+    height: auto;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+} 
+
+    .title {
+        margin: 50px 0 50px 0;;
+        text-align: center;
+        color: grey;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .members {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-bottom: 148px;
+    }
+
+    .member-div {
+        width: 550px;
+        flex: 0 1 auto;
+    }
+
+    .member-div a {
+        width: inherit;
+        height: inherit;
+    }
+
+    .member-img {
+        border: 3px solid white;
+        width: inherit;
+    }
+
+    .member-text {
+        /* text-align: center; */
+        margin-top: 4px;
+        color: white;
+        font-size: 20px;
+    }
+
+.quote {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .quote-text {
+        text-align: center;
+        color: black;
+        width: 1100px;
+        font-size: 40px;
+        /* font-style: italic; */
+        margin: 0 340px;
+    }
+
+    .author {
+        margin-top: 20px;
+        text-align: right;
+        font-size: 30px;
+    }
+
+.call {
+    display: flex;
+    background-color: #1f2937;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+    .call-to-arms {
+        display: flex;
+        font-size: 20px;
+        color: white;
+        padding: 50px;
+        /* background-color: lightslategray; */
+        border-radius: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reddit {
+        color: white;
+        background-color: black;
+        margin-left: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
